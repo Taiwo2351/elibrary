@@ -1,0 +1,40 @@
+*{
+  box-sizing: border box;
+}
+
+body{
+  background-image: url(../images/bg4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.jumbotron{
+  background-image: url(../images/j3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 130px;
+  padding: 30px; 
+  position: relative;
+}
+
+.jumbotron .container{
+  position: relative;
+  z-index: 999999;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+h1{
+  font-size: 45px;
+}
+.form-label{
+  font-size: 25px;
+
+}
+
